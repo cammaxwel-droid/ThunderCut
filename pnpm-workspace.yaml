@@ -1,0 +1,8 @@
+# Explicit dependency install-script permissions. Versions stay in pnpm-lock.yaml.
+allowBuilds:
+  electron: true
+  esbuild: true
+  sharp: true
+  unrs-resolver: true
+  workerd: true
+  electron-winstaller: false

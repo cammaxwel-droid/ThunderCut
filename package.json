@@ -1,0 +1,51 @@
+{
+  "name": "cam-mower-man-thunder-cut",
+  "version": "0.1.0",
+  "private": true,
+  "packageManager": "pnpm@11.25.0",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "dev": "pnpm run desktop:dev",
+    "build": "pnpm run desktop:renderer",
+    "start": "pnpm run desktop:dev",
+    "lint": "eslint . --ignore-pattern dist --ignore-pattern .next --ignore-pattern .build --ignore-pattern desktop-app/renderer --ignore-pattern release",
+    "typecheck": "tsc --noEmit --incremental false",
+    "test": "node --experimental-strip-types --test tests/*.test.mjs",
+    "verify:baseline": "node desktop/verify-baseline.mjs",
+    "test:step2": "node --experimental-strip-types --test tests/*.test.mjs",
+    "desktop:renderer": "vite build --config desktop/vite.renderer.config.ts",
+    "desktop:stage": "node desktop/stage-package.mjs",
+    "desktop:dev": "pnpm run desktop:renderer && electron desktop/development-main.cjs",
+    "desktop:unpacked": "pnpm run desktop:renderer && pnpm run desktop:stage && node desktop/run-electron-builder.mjs --win dir --x64",
+    "desktop:package": "pnpm run desktop:renderer && pnpm run desktop:stage && node desktop/run-electron-builder.mjs --win nsis --x64"
+  },
+  "dependencies": {
+    "next": "16.2.6",
+    "react": "19.2.6",
+    "react-dom": "19.2.6"
+  },
+  "devDependencies": {
+    "@cloudflare/vite-plugin": "1.37.1",
+    "@cloudflare/workers-types": "4.20260515.1",
+    "@openai/sites-vite-plugin": "^0.1.0 || ^0.2.0",
+    "@tailwindcss/postcss": "4.2.1",
+    "@types/node": "22.19.19",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "@vitejs/plugin-react": "6.0.2",
+    "@vitejs/plugin-rsc": "0.5.26",
+    "electron": "^44.0.0",
+    "electron-builder": "^26.15.3",
+    "eslint": "9.39.4",
+    "eslint-config-next": "16.2.6",
+    "react-server-dom-webpack": "19.2.6",
+    "tailwindcss": "4.2.1",
+    "typescript": "5.9.3",
+    "vinext": "1.0.0-beta.3",
+    "vite": "8.0.13",
+    "wrangler": "4.92.0"
+  },
+  "type": "module"
+}

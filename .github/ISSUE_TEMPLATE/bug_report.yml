@@ -1,0 +1,24 @@
+name: Bug report
+description: Report a non-sensitive ThunderCut problem.
+body:
+  - type: markdown
+    attributes:
+      value: "For security issues, use the Security tab's private reporting option. Do not attach personal saves or secrets."
+  - type: input
+    id: version
+    attributes:
+      label: ThunderCut and Windows versions
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: What happened and how to reproduce it
+      description: Include what you expected and whether it happens windowed or full-screen.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Screenshots or additional details
+      description: Remove private information first.

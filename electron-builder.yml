@@ -1,0 +1,58 @@
+appId: com.cammowerman.thundercut
+productName: ThunderCut
+copyright: Copyright © 2026 Cameron Maxwell M - A Game by Native
+electronVersion: 44.0.0
+directories:
+  output: ../../release
+  buildResources: .
+files:
+  - main.cjs
+  - game-storage.cjs
+  - preload.cjs
+  - package.json
+  - hub-manifest.json
+  - icon.png
+  - icon.ico
+  - renderer/**/*
+asarUnpack:
+  - icon.png
+  - icon.ico
+  - hub-manifest.json
+  - renderer/**/*
+npmRebuild: false
+protocols:
+  - name: Thunder Cut launcher
+    schemes:
+      - thundercut
+win:
+  target:
+    - target: nsis
+      arch:
+        - x64
+  icon: icon.ico
+  executableName: ThunderCut
+  requestedExecutionLevel: asInvoker
+  artifactName: Thunder-Cut-Setup-${version}-${arch}.${ext}
+nsis:
+  installerIcon: icon.ico
+  uninstallerIcon: icon.ico
+  oneClick: false
+  perMachine: false
+  allowToChangeInstallationDirectory: true
+  createDesktopShortcut: always
+  createStartMenuShortcut: true
+  shortcutName: ThunderCut
+  uninstallDisplayName: ThunderCut
+  deleteAppDataOnUninstall: false
+  runAfterFinish: true
+
+# Human-readable licence files next to the installed executable.
+extraFiles:
+  - from: LICENSE
+    to: LICENSE-THUNDERCUT.txt
+  - from: ASSET_LICENSE.md
+    to: ASSET_LICENSE.md
+  - from: THIRD_PARTY_NOTICES.md
+    to: THIRD_PARTY_NOTICES.md
+  - from: licenses
+    to: licenses

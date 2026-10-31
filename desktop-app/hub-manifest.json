@@ -1,0 +1,13 @@
+{
+  "contractVersion": 1,
+  "gameId": "thunder-cut",
+  "displayName": "Thunder Cut",
+  "developer": "Cam the Mower Man",
+  "appUserModelId": "com.cammowerman.thundercut",
+  "executableName": "ThunderCut.exe",
+  "launchUri": "thundercut://launch?v=1&source=hub",
+  "supportedLaunchActions": ["launch"],
+  "singleInstance": true,
+  "standalone": true,
+  "hostApi": "window.thunderCutHost.getLaunchContext()"
+}

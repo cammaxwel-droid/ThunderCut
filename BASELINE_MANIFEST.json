@@ -1,0 +1,790 @@
+{
+  "desktopVersion": "1.1.2",
+  "baseline": "Current installed Thunder Cut, September 11 update, copied and verified 2026-10-24",
+  "installedExeSha256": "2f00a820c203252912bf006417b85ecb7e8218afbbd4babab05dff1713c2a1de",
+  "installedAsarSha256": "d7441c422a657f77ab14f25bc6dc95f79aeb7b3c57b370bd505df3d0a6256771",
+  "files": [
+    {
+      "path": "app/audio.ts",
+      "bytes": 20958,
+      "sha256": "6c00ce1101b67b2515c84fa307aae4b8e2b28aaa9c5bd6571f05ac9f02ac493c"
+    },
+    {
+      "path": "app/coinRules.ts",
+      "bytes": 677,
+      "sha256": "c20d6337a6bedcbf648afc00958d220d466383e89d267be02a1f5ae2f890adb0"
+    },
+    {
+      "path": "app/coinValues.tsx",
+      "bytes": 1380,
+      "sha256": "e100c723efdc7d7403e0d1200613a4f89087a8cc1ebe79b9bee706a104b0144c"
+    },
+    {
+      "path": "app/gameRules.ts",
+      "bytes": 2660,
+      "sha256": "7df2470a9899efcf713804a01826171764a6ddcfc1ed442e7ac179cbdd0e6732"
+    },
+    {
+      "path": "app/globals.css",
+      "bytes": 140399,
+      "sha256": "3772b5f29550a25ad873f2d1d2ebd39507f6203638695936e2b752600c3e3e2e"
+    },
+    {
+      "path": "app/layout.tsx",
+      "bytes": 1114,
+      "sha256": "aa15cf3ceaeaf89482c3a980cf4b9a9b7abed28b4c0bcf034bb1001de7516d68"
+    },
+    {
+      "path": "app/MoneyText.tsx",
+      "bytes": 1549,
+      "sha256": "85c4868feb425bb8051283cf75e72bccbb09de137a047213e6f360010f50eaa9"
+    },
+    {
+      "path": "app/page.tsx",
+      "bytes": 181583,
+      "sha256": "464420c0e67b6309bf90e8db9efa15ba91bd6d5eefde65b6618dd752a2e8082a"
+    },
+    {
+      "path": "app/sequence.ts",
+      "bytes": 1205,
+      "sha256": "1fe68b02a442ea6efa4f7d08ed12ebcb11199b590b11f3e0b3c02316a5ac56ee"
+    },
+    {
+      "path": "app/settlementRules.ts",
+      "bytes": 866,
+      "sha256": "cfeba04105227560331c42a37827e527d268cd28b712def539afdaf3fbf9a3e2"
+    },
+    {
+      "path": "app/ThunderText.tsx",
+      "bytes": 1220,
+      "sha256": "97a9674d5801415232371a165b9ef289e2b5712924813b2276a1fe7579d2b02f"
+    },
+    {
+      "path": "public/cam-thunder-art.png",
+      "bytes": 2889521,
+      "sha256": "5515575d8edbdd0ba8566161a29bc90ed1d04c41591e68494268fe3558b71def"
+    },
+    {
+      "path": "public/favicon.svg",
+      "bytes": 712,
+      "sha256": "e6d2e59b7b5bbb0342e0fb496dfc262decbfe4426bbb7b047aec8d467d1dc6f7"
+    },
+    {
+      "path": "public/og.png",
+      "bytes": 1368709,
+      "sha256": "d4216d20289bf92e5b23ff936ae7ea7df1e5519607bf6f30ae963e8982b9c568"
+    },
+    {
+      "path": "public/audio/thunder-cut/01_Musical_Sting_With_Vocal_Pop.wav",
+      "bytes": 344648,
+      "sha256": "7539e82bba2b4bef863105fad5f9b54d7047823571c3226bd7246e390f67dcce"
+    },
+    {
+      "path": "public/audio/thunder-cut/02_Glass_Clink_Ping.wav",
+      "bytes": 130662,
+      "sha256": "7feac7612c561836f75a2cae31c522784f15cccb15063786e8f6cf5c8283dfad"
+    },
+    {
+      "path": "public/audio/thunder-cut/03_Musical_Rattle_Sting.wav",
+      "bytes": 134206,
+      "sha256": "8953ec9c9dee0588881eca6d5f81e8e0c7c0c0e8f31ec57d3479da770bb0e8d8"
+    },
+    {
+      "path": "public/audio/thunder-cut/04_Ding_Glass_Tinkle.wav",
+      "bytes": 144240,
+      "sha256": "d271584e07caa3edf5f43959f5f62008db2f0c13c95d361ac7b3997931cc3701"
+    },
+    {
+      "path": "public/audio/thunder-cut/05_Electronic_Throb_Sting.wav",
+      "bytes": 132958,
+      "sha256": "f9a2ea3774c6ae78e09d39e25a0051ef96a97c70fcf74a8e61c657693a390399"
+    },
+    {
+      "path": "public/audio/thunder-cut/06_Alarm_Pop_Sting.wav",
+      "bytes": 174766,
+      "sha256": "6a49aeabb847b3606bd9b120dc96c59b563b5086f48d4cbcd966aabf9d2e976f"
+    },
+    {
+      "path": "public/audio/thunder-cut/07_Whoosh_Pop_Ping.wav",
+      "bytes": 123616,
+      "sha256": "36811df12d75a1faf854aa68d3a74f95dbc508616136b51d748830a1acc66084"
+    },
+    {
+      "path": "public/audio/thunder-cut/08_Electronic_Synth_Sting.wav",
+      "bytes": 187116,
+      "sha256": "20c1ffaef83a48d673e6041bd42c8d0079f6b92ad87b158eb9dae0d3c593d34a"
+    },
+    {
+      "path": "public/audio/thunder-cut/09_Impact_Pop.wav",
+      "bytes": 132428,
+      "sha256": "8ea0070d69bbbf51bda9c6b235d79d45269ab1e1b10a70c8edfe920f7522aa93"
+    },
+    {
+      "path": "public/audio/thunder-cut/10_Ding_Dong_Tinkle.wav",
+      "bytes": 222400,
+      "sha256": "bd5ef2d4f32e7f55d92a4224a03f3fb57150cd7e89dbe4c0580223dc754a56c2"
+    },
+    {
+      "path": "public/audio/thunder-cut/11_Musical_Sting_With_Vocal_Whoosh.wav",
+      "bytes": 342364,
+      "sha256": "1e0063a9ccfb6862302a68617dafec195a35cf0eb2d30cc838fc057204d9bccb"
+    },
+    {
+      "path": "public/audio/thunder-cut/12_Electronic_Siren_Sting.wav",
+      "bytes": 524060,
+      "sha256": "76020b9de9fa3565af7afccdb3c9dbb303fef774f18497dd8856ff18e8bc0ab7"
+    },
+    {
+      "path": "public/audio/thunder-cut/13_Rolling_Mechanical_Rumble.wav",
+      "bytes": 552272,
+      "sha256": "4ac4440acdeb1a82aaba6155d884cf55afe1c31d8d2e1d95dd90604dc63f8d72"
+    },
+    {
+      "path": "public/audio/thunder-cut/14_Rising_Engine_Rev_Music.wav",
+      "bytes": 359998,
+      "sha256": "6d661a5ef7a2007421abd37f7d745a8baa298a16c428d70c2e01f0098f85c6ad"
+    },
+    {
+      "path": "public/audio/thunder-cut/15_Glass_Shatter.wav",
+      "bytes": 181812,
+      "sha256": "0f29063f1f45d24701c598132c2729180cbfa10462a907e7af982e7c3582548e"
+    },
+    {
+      "path": "public/audio/thunder-cut/16_Glass_Shatter_Impact.wav",
+      "bytes": 63640,
+      "sha256": "7e95030ebd0a36ea995b749bc958bae9ba68c92c9ba08f61cc53307b560d7736"
+    },
+    {
+      "path": "public/audio/thunder-cut/17_Glass_Clink_Tail.wav",
+      "bytes": 43710,
+      "sha256": "c362b5fad1be91db5899bf1db6ce345a59c9413f512bdf5ed6f7709ed30c2d01"
+    },
+    {
+      "path": "public/audio/thunder-cut/18_Long_Video_Game_Win_Music.wav",
+      "bytes": 1358946,
+      "sha256": "c425437805a0ef9484754271d1621087040361bf99336f42c4cf8df8b624d88e"
+    },
+    {
+      "path": "public/audio/thunder-cut/19_Bright_Synth_Sting.wav",
+      "bytes": 247974,
+      "sha256": "51551115546a52e4c290f31f1edbb9a653407663dce8b366022cf44f946f903e"
+    },
+    {
+      "path": "public/audio/thunder-cut/20_Short_Low_Vocal_Blip.wav",
+      "bytes": 14244,
+      "sha256": "2b9f82229e857e0d12ded20470173aadadcb73cf93336325aab2f83a64c333c6"
+    },
+    {
+      "path": "public/audio/thunder-cut/21_Whoosh_Arrow_Burst.wav",
+      "bytes": 127668,
+      "sha256": "3f6b1cd053952c8df1975ebc1171018f80bb29eca08dfecb907dea7b0d8e6789"
+    },
+    {
+      "path": "public/audio/thunder-cut/22_Ping_Clink_Ding.wav",
+      "bytes": 123610,
+      "sha256": "abf3db8bd236487e509ed543fb7b7a552b2bbb5fc9e8bc5b772e6f70c47dbc04"
+    },
+    {
+      "path": "public/audio/thunder-cut/23_Passing_Siren_Sweep.wav",
+      "bytes": 97168,
+      "sha256": "7b528b24c1ec5fde874d7bfb50c63e6bcad5cb279f21b817070dbf1ea56759df"
+    },
+    {
+      "path": "public/audio/thunder-cut/24_Video_Game_Music_Loop.wav",
+      "bytes": 755120,
+      "sha256": "67a850d47f41c5cb756e4289b55b3be7cbc683b95443a3511b0add078664a388"
+    },
+    {
+      "path": "public/audio/thunder-cut/25_Short_Music_Jingle.wav",
+      "bytes": 123606,
+      "sha256": "88efd2456d2b85c7dbb9ecf032aec6b4069f98e6dd73d197bf02a5e0b21da787"
+    },
+    {
+      "path": "public/audio/thunder-cut/26_Static_Water_Rustle.wav",
+      "bytes": 81280,
+      "sha256": "b058bb5bb901ee2bc82e752f642e0aa3ee1702717e5d3b1e9f255a5a24672c2d"
+    },
+    {
+      "path": "public/audio/thunder-cut/27_Frog_Croak.wav",
+      "bytes": 95378,
+      "sha256": "1621dad652eaf9351c7ac40cff10b41f52bcefeee56222dbf8b8f0071d7139cf"
+    },
+    {
+      "path": "public/audio/thunder-cut/28_Telephone_Alarm_Tick.wav",
+      "bytes": 90102,
+      "sha256": "db773eabc023459789e2b9e56994713e6e8e3cca728defea754f8798564151d1"
+    },
+    {
+      "path": "public/audio/thunder-cut/29_Short_Vocal_Cry.wav",
+      "bytes": 70690,
+      "sha256": "e02a929ab1d890ee55f72eea5c1841a9c8b76bbf07bc6d59cebec1d6b02a90fd"
+    },
+    {
+      "path": "public/audio/thunder-cut/30_Engine_Start_Rev.wav",
+      "bytes": 266496,
+      "sha256": "1fd290faab9d65bdad06830ee58f5ba5bc2cbdbbad4bd083624526ea4ba98047"
+    },
+    {
+      "path": "public/audio/thunder-cut/31_Motorboat_Style_Engine.wav",
+      "bytes": 98920,
+      "sha256": "7334fe89de27eb42f941d8719091cf92ff4ee6b9eac8052e0876abe7bfc14c93"
+    },
+    {
+      "path": "public/audio/thunder-cut/32_Birdlike_Coo.wav",
+      "bytes": 84790,
+      "sha256": "a569ca55272c445b948f7ab2710f58976d983a6dd7f98e53cbfc7fa47ab62503"
+    },
+    {
+      "path": "public/audio/thunder-cut/33_Spray_Whoosh.wav",
+      "bytes": 174760,
+      "sha256": "499d1ce4c73c18954113470ba6f6b644d6cbb9fc116e7a6603f1da71c6722204"
+    },
+    {
+      "path": "public/audio/thunder-cut/34_Liquid_Pour_Clink.wav",
+      "bytes": 171246,
+      "sha256": "dbb65dd3ff75c343c294368be4d5f220f378747ceaf230914bcaff71eca019b3"
+    },
+    {
+      "path": "public/audio/thunder-cut/35_Crunch_Squish_Crack.wav",
+      "bytes": 125374,
+      "sha256": "1fc809092f2444b0d38429c0219d5457f58335a86f578cab87cc850472b88939"
+    },
+    {
+      "path": "public/audio/thunder-cut/36_Clock_Ticking.wav",
+      "bytes": 107732,
+      "sha256": "140ae1c9da7e7cfef1889d264a532383b32ecc2c59f82b22491fb26a45d40c4e"
+    },
+    {
+      "path": "public/audio/thunder-cut/37_Long_Coin_Clink_Payout_Roll.wav",
+      "bytes": 1278500,
+      "sha256": "303d2cf3981636adf305bbfbf9371060876019f9a87d3c5a60451f0abd7c921a"
+    },
+    {
+      "path": "public/audio/thunder-cut/38_Bright_Synth_Glockenspiel.wav",
+      "bytes": 205304,
+      "sha256": "a2d7bd83642a0a8f39a0a89e5cef44a6a943d84df1bae399a3583c69102804fe"
+    },
+    {
+      "path": "public/audio/thunder-cut/39_Glass_Clink_Percussion.wav",
+      "bytes": 225922,
+      "sha256": "f4e7887b118b146f09332602973090b8b196ae6f2e0a2f198e75f0b4cfaa010a"
+    },
+    {
+      "path": "public/audio/thunder-cut/40_Mechanical_Rattle.wav",
+      "bytes": 121840,
+      "sha256": "8cc8279ffb33e0cda501a42e1bac2ea256f4b72b2b36c38b0dc36df35ad08ef8"
+    },
+    {
+      "path": "public/audio/thunder-cut/41_Engine_Start_Impact.wav",
+      "bytes": 210060,
+      "sha256": "1149e38fb5d9a117be8b979e082d1cc1067e69c6e4ce1bdbbf920abaff7a4097"
+    },
+    {
+      "path": "public/audio/thunder-cut/42_Scrape_Clatter_Rattle.wav",
+      "bytes": 120086,
+      "sha256": "fce6b7ea76acd9f85de6f3a0f0d306087bfc9ba008888db0442902340deeee2a"
+    },
+    {
+      "path": "public/audio/thunder-cut/43_Fast_Clockwork_Ticking.wav",
+      "bytes": 69634,
+      "sha256": "4908328a63fd1e7c06be032c1dd598e5e43cc942a9745be895ee2a8c183f5d96"
+    },
+    {
+      "path": "public/audio/thunder-cut/ambience_storm_rain_loop.ogg",
+      "bytes": 689608,
+      "sha256": "fecf317c6837b49821d77d1aeffd1495b5bdea5790714319f3a731b5cbfe3978"
+    },
+    {
+      "path": "public/audio/thunder-cut/music_base_game_loop.ogg",
+      "bytes": 726139,
+      "sha256": "b3c0c21ac79ad2d5366bd6a91574db0f8a6b342f8c7e03d92036ef3fa7569948"
+    },
+    {
+      "path": "public/audio/thunder-cut/music_gamble_loop.ogg",
+      "bytes": 519362,
+      "sha256": "d9053d2babbdcbbc8a62bb39ae8873a29854d35f0867203e8d06501d14b020dd"
+    },
+    {
+      "path": "public/audio/thunder-cut/music_session_summary.ogg",
+      "bytes": 212874,
+      "sha256": "76b9dd52da42561b5b7c1b093662ef6f128e58bca97ea628cd72e47576c72971"
+    },
+    {
+      "path": "public/audio/thunder-cut/sfx_coin_storm_lightning_01.wav",
+      "bytes": 409650,
+      "sha256": "640aa0286deaec8f8dc15a953e2e31314efed127fdcebf3588a02f468777ba7c"
+    },
+    {
+      "path": "public/audio/thunder-cut/sfx_coin_storm_lightning_02.wav",
+      "bytes": 542130,
+      "sha256": "6e4d51fb198c33d707a01895f90fdaf37670a0e2e6e69a1336be860ed74e3949"
+    },
+    {
+      "path": "public/audio/thunder-cut/sfx_coin_storm_lightning_03.wav",
+      "bytes": 657330,
+      "sha256": "1cf9b86d7eeff76af91016657764915a4d54ddf1e72bbe5857b711fba65a91f0"
+    },
+    {
+      "path": "public/audio/thunder-cut/sfx_scatter_land.wav",
+      "bytes": 426930,
+      "sha256": "9ced289f2e47bb0aedb7aabb5e2c9f9662792c0cc40bf7319cab6bc3eafb9db5"
+    },
+    {
+      "path": "public/audio/thunder-cut/sfx_storm_bolt_land.wav",
+      "bytes": 605490,
+      "sha256": "62eb31eb8a1a0ea83f5f5e3aa282135b404773931a26f5f309030abb42676c8d"
+    },
+    {
+      "path": "public/audio/thunder-cut/sfx_ur_scattered_land.wav",
+      "bytes": 879090,
+      "sha256": "e225c2f9d1ea81589d645737017eeb42621f43011f4698bcd1db9ccaa70249a6"
+    },
+    {
+      "path": "public/audio/thunder-cut/sfx_wild_hum_loop.wav",
+      "bytes": 1728690,
+      "sha256": "998a477e55c5864b1bb32e162051bbc94a00f96005ab4f58c1b62a4d48d492ba"
+    },
+    {
+      "path": "public/audio/thunder-cut/stinger_thunder_charge_full.wav",
+      "bytes": 1843890,
+      "sha256": "241d27b0f150921c2dfec8b240ab7f4f3a3f9dc52dd66c525bec0a86015cabca"
+    },
+    {
+      "path": "public/game-art/cam-marquee.webp",
+      "bytes": 176546,
+      "sha256": "489af4aaac72f755b711bf9f798ff5f06c2416a3280b996e11dc3ebabc469646"
+    },
+    {
+      "path": "public/game-art/cam.webp",
+      "bytes": 34256,
+      "sha256": "b4e732e6d0ac490ac1ba448146a3a0ae81ead4b490db8d65862647b4598919b9"
+    },
+    {
+      "path": "public/game-art/clippings.webp",
+      "bytes": 26772,
+      "sha256": "1d09db63490a5b9fd65fb32b718c8cfea05809bc5ecec2fd85732fd2551e974a"
+    },
+    {
+      "path": "public/game-art/coin.webp",
+      "bytes": 43978,
+      "sha256": "cf7e75f12ccb9bd8b8ac3c19b72c5f4e36ad09f59dfce84e96c60d43248572f4"
+    },
+    {
+      "path": "public/game-art/fuel-can.webp",
+      "bytes": 56640,
+      "sha256": "9a75dcad92f56168d642420bea04fc3bf2c9247cba5f4276b278ceae733b6118"
+    },
+    {
+      "path": "public/game-art/grand.webp",
+      "bytes": 51516,
+      "sha256": "2d2590fd04044f98361e2f65096b144703acb92445ceb7b06b5f494d22136bb1"
+    },
+    {
+      "path": "public/game-art/line-trimmer.webp",
+      "bytes": 48966,
+      "sha256": "09af38a3425ddd52e2e84968e29601da6fc12dc4502966ca76a625281e67fe21"
+    },
+    {
+      "path": "public/game-art/major.webp",
+      "bytes": 31586,
+      "sha256": "1043c08aec72bea1781420f45f6b02fc9e791a36b3e437ff22bf2ce2e039ad83"
+    },
+    {
+      "path": "public/game-art/mini.webp",
+      "bytes": 27738,
+      "sha256": "8e4658efd71bc6ae54ad0e2aa51c04bbd6298203846c5b25271ed76e3ab347c5"
+    },
+    {
+      "path": "public/game-art/minor.webp",
+      "bytes": 29248,
+      "sha256": "0cb648bf7d9d6572807f3af8a6767e886999da8e7157343537a8927f18e58a02"
+    },
+    {
+      "path": "public/game-art/push-mower.webp",
+      "bytes": 36834,
+      "sha256": "d17d0850c6c7e1f6aa9bf9ceb0fe83cecab7f712e3f3eda10490c52ad26975f3"
+    },
+    {
+      "path": "public/game-art/ride-on.webp",
+      "bytes": 33732,
+      "sha256": "cc4c4c0cb16e399c3e1a78c9a2993ea8b4e82f1595f70e78ef7329dfd35ce643"
+    },
+    {
+      "path": "public/game-art/scatter.webp",
+      "bytes": 42800,
+      "sha256": "e1c5f2df0da5912a6d9781819d1e6f36981297e20e22ac96355fe19fae8a96a1"
+    },
+    {
+      "path": "public/game-art/storm-bolt.webp",
+      "bytes": 25858,
+      "sha256": "3177aa233147772b8b8409d17afe74a6bab8306a7c726c19fa9cb5e4fcecb034"
+    },
+    {
+      "path": "public/game-art/ur-scattered.webp",
+      "bytes": 30892,
+      "sha256": "2940f7471361c98b230973afcf98584f67d882b2c7b4444f0955e27c685e0298"
+    },
+    {
+      "path": "public/game-art/wild.webp",
+      "bytes": 34718,
+      "sha256": "3dea719006007d8ed5f17b8d1721c03acfc955f65c08b23c718a299c2f38f204"
+    },
+    {
+      "path": "public/game-art/work-boots.webp",
+      "bytes": 36414,
+      "sha256": "829434a851a40bf2f8c6c81207a0f3ba58eb066e88458744fbd519d941d46c2e"
+    },
+    {
+      "path": "public/game-font/0.webp",
+      "bytes": 11784,
+      "sha256": "ac8295dc35842d403720fdf91077016269f0c5769566ea432ddf70eee577a905"
+    },
+    {
+      "path": "public/game-font/1.webp",
+      "bytes": 8564,
+      "sha256": "11f14cfbb211c4ca1180a84ffbac95c7464849b9491bf56e74ea84b927f3efd3"
+    },
+    {
+      "path": "public/game-font/2.webp",
+      "bytes": 11240,
+      "sha256": "cf69bffc605554c35e923ab9a42fa3b17aa1a4bb9ca0c1c340b914831c6e95e7"
+    },
+    {
+      "path": "public/game-font/3.webp",
+      "bytes": 10698,
+      "sha256": "4ed4abc453215c9414f68c32b1e2e5db8cb44cccf784066a8b1db0381454b112"
+    },
+    {
+      "path": "public/game-font/4.webp",
+      "bytes": 8768,
+      "sha256": "d17823489590a19213b669a807bf59c172b88378d1de86791670562c1a16ec25"
+    },
+    {
+      "path": "public/game-font/5.webp",
+      "bytes": 10386,
+      "sha256": "c6311232ec9bfbc5725e79af4c67a6675e428ba6bba41867520df66ad09d7b77"
+    },
+    {
+      "path": "public/game-font/6.webp",
+      "bytes": 9182,
+      "sha256": "8c956b23610fed5b5db78a45cebcb2f765a28ec5551585cf575319ae0f937f8a"
+    },
+    {
+      "path": "public/game-font/7.webp",
+      "bytes": 10150,
+      "sha256": "f46819b5ac41bd5fc3194bb95bdf5a5085c07550e89e58ae35444df7e108fd71"
+    },
+    {
+      "path": "public/game-font/8.webp",
+      "bytes": 11200,
+      "sha256": "7265fd645d8cee0880227e5925b0675b6f459e462dfc8d81ccd268e20bed1675"
+    },
+    {
+      "path": "public/game-font/9.webp",
+      "bytes": 11160,
+      "sha256": "56ba0efd5ac39e116f22ce8f7692b132b53ee5db9a5880a1cd6882c46b61e0e0"
+    },
+    {
+      "path": "public/game-font/a.webp",
+      "bytes": 9204,
+      "sha256": "2939451b08baa471855722aa0264b779ab5bb333fb719d74ef610117b9c6559e"
+    },
+    {
+      "path": "public/game-font/b.webp",
+      "bytes": 10552,
+      "sha256": "f4eb36674ec22e4cc8927ac98f056873d3eda08e615d1079e64dafdf7e7ef9eb"
+    },
+    {
+      "path": "public/game-font/c.webp",
+      "bytes": 10390,
+      "sha256": "a3660c4271db78baad336b942f4fab15bc78a4fc2d52f343900519369c3e7794"
+    },
+    {
+      "path": "public/game-font/d.webp",
+      "bytes": 10254,
+      "sha256": "348e18a0b18741c121fb97ef7951a399887c9910dc67425cc2e72efe03942875"
+    },
+    {
+      "path": "public/game-font/dollar.webp",
+      "bytes": 10254,
+      "sha256": "a895efe97aaae56a88e297a815840b5b49d9ce5917b7647a1e6a172be631dd8b"
+    },
+    {
+      "path": "public/game-font/e.webp",
+      "bytes": 10402,
+      "sha256": "118322766876f2c619a85de8b1cf135b9553b8aab96baefcf7883b0bb4f6c7f7"
+    },
+    {
+      "path": "public/game-font/f.webp",
+      "bytes": 9762,
+      "sha256": "9c4e11d3a1ed0430424d38e2910d75dc1b515ff25cbe1207a9a64d05244a9fc6"
+    },
+    {
+      "path": "public/game-font/g.webp",
+      "bytes": 11440,
+      "sha256": "9d72084258da49d951fd1e8c35c88c4803d660ba77a94904339b730bea8b4918"
+    },
+    {
+      "path": "public/game-font/h.webp",
+      "bytes": 11986,
+      "sha256": "b963464a2a6498ca202c382fd7b760b62c4d662ae6bef309f6a2624946b4c323"
+    },
+    {
+      "path": "public/game-font/i.webp",
+      "bytes": 7258,
+      "sha256": "db3cd8d2cbf5cc537e86932884cbbd8dec67d355b9022530199e9208bafa008c"
+    },
+    {
+      "path": "public/game-font/j.webp",
+      "bytes": 10330,
+      "sha256": "a7d3747cce613997bd9df2f34fb5f6d0bae77ee672aa5977b4d57ba638a89aa2"
+    },
+    {
+      "path": "public/game-font/k.webp",
+      "bytes": 10570,
+      "sha256": "fd3dba68e3c9a6a47d66e63a4bbbb66ddd72c95dcacc9537874bebdc34c10227"
+    },
+    {
+      "path": "public/game-font/l.webp",
+      "bytes": 10284,
+      "sha256": "3262e3172766011d83f5a206c79c63ec54c61907a672da94af58522c40d2f3f9"
+    },
+    {
+      "path": "public/game-font/m.webp",
+      "bytes": 9662,
+      "sha256": "1fb249c6bec254a457e21eaca9ba3e5dbc3306ab559a7758726c667267640d0f"
+    },
+    {
+      "path": "public/game-font/n.webp",
+      "bytes": 10546,
+      "sha256": "1d9fbea8b173a890e60d4bf73076de52c545debed774ba4d813d2f5d33c3b34f"
+    },
+    {
+      "path": "public/game-font/o.webp",
+      "bytes": 10662,
+      "sha256": "91d6516ae97c129cd74d2c739aba70f20add36fd6e37ef2fea2c2fc0a1b2194a"
+    },
+    {
+      "path": "public/game-font/p.webp",
+      "bytes": 9222,
+      "sha256": "7e667546f76f5ef80ddcfb87365ac217b2037690e7e5cd445454ade679da0a17"
+    },
+    {
+      "path": "public/game-font/q.webp",
+      "bytes": 11186,
+      "sha256": "5ea0f5f2d5bab35fc89d4d76faea5f4dabb20038f7baa5519e9e121c9d6ad09f"
+    },
+    {
+      "path": "public/game-font/r.webp",
+      "bytes": 11634,
+      "sha256": "df4133dcb3a9cd09e1a3f011ae0d2387574d1738ab9d0315010be06a4c011d35"
+    },
+    {
+      "path": "public/game-font/s.webp",
+      "bytes": 10274,
+      "sha256": "58b4656c87ccbb164409826c0e8bc3e6bbf49cdf5d089ea9bb2a92dc4a885953"
+    },
+    {
+      "path": "public/game-font/t.webp",
+      "bytes": 9790,
+      "sha256": "20f8335f0398a2d7458ec8f9aa0aa6cf131bb64f67ce0ce9d2d944006ad440a9"
+    },
+    {
+      "path": "public/game-font/u.webp",
+      "bytes": 9648,
+      "sha256": "43aaa458312eb284b547cc91addbba4d283fb5e5715731c99167f17c5deaad9f"
+    },
+    {
+      "path": "public/game-font/v.webp",
+      "bytes": 8980,
+      "sha256": "e993a19cfd6d084d50fc7e8441ba5b3d55806b15d1667b82f48aa13816c93149"
+    },
+    {
+      "path": "public/game-font/w.webp",
+      "bytes": 9440,
+      "sha256": "b3e11b1be8195e601943a4ef842d5cb89bdc3f21a6ec702ace3516fd5127dad3"
+    },
+    {
+      "path": "public/game-font/x.webp",
+      "bytes": 8922,
+      "sha256": "b547ab109c9648fb364551cbde9a4c4a4e1e8b7bda89c2ad6dfef6da92863fc5"
+    },
+    {
+      "path": "public/game-font/y.webp",
+      "bytes": 9528,
+      "sha256": "1cc291f184d0c65961d8d06c9cec4ea114d1c36b9a1a3b20f000ee84dd77ee62"
+    },
+    {
+      "path": "public/game-font/z.webp",
+      "bytes": 9774,
+      "sha256": "b4f0cf59ce857f3f403303f85e71a9a57d780bba02b175ad17a45b997d80239e"
+    },
+    {
+      "path": "public/money-font/0.webp",
+      "bytes": 2114,
+      "sha256": "a787b9f768f5275e8305fb207c09638ade3b0a31fd2888f4fdbf755f088cfc1f"
+    },
+    {
+      "path": "public/money-font/1.webp",
+      "bytes": 840,
+      "sha256": "4e9f21fd29530b633d46db8b9ca1bdc00f9b760878604a59146b24886a035c58"
+    },
+    {
+      "path": "public/money-font/2.webp",
+      "bytes": 1918,
+      "sha256": "6f2c0d17384dd17cf4ca037ae65002e9ee6122bc6e2a261d3a8d8c5a21f0de09"
+    },
+    {
+      "path": "public/money-font/3.webp",
+      "bytes": 2114,
+      "sha256": "49736e273503a31187cbc3a81308abca22dee7c471127c3b3dd1da06e1934b9a"
+    },
+    {
+      "path": "public/money-font/4.webp",
+      "bytes": 1578,
+      "sha256": "de58a2e7c5aff7ab1c05256941f7909be781716075977b79c371f1fde42d8ab5"
+    },
+    {
+      "path": "public/money-font/5.webp",
+      "bytes": 2064,
+      "sha256": "5704b29f709fc3ebfed5120f6d65f0eefa73046ba2eae0c1bec7d96297fcae71"
+    },
+    {
+      "path": "public/money-font/6.webp",
+      "bytes": 2284,
+      "sha256": "c82281aa40b024cab7daa8cd96b3c14a074b4446c0288a1fb3921cb98d19d8c8"
+    },
+    {
+      "path": "public/money-font/7.webp",
+      "bytes": 1598,
+      "sha256": "011c70fc1857556eeb0b49793bcb28273db9deffed0298637e8db3586469db21"
+    },
+    {
+      "path": "public/money-font/8.webp",
+      "bytes": 2426,
+      "sha256": "96f336451d40b45d8849b16814346719fd259164c7c788c0cdbb9ef3a48fa522"
+    },
+    {
+      "path": "public/money-font/9.webp",
+      "bytes": 2270,
+      "sha256": "80779a26fb061519d8a148869a0ae81466bd72916e02253947a7b3f4beeab205"
+    },
+    {
+      "path": "public/money-font/comma.webp",
+      "bytes": 462,
+      "sha256": "e5ed62d653349482a1a5cb1f5b0a1b1bdb0dd8bd08caf6aa5903fa77f01f215e"
+    },
+    {
+      "path": "public/money-font/dollar.webp",
+      "bytes": 2550,
+      "sha256": "811cd13d70274a7210689ed390434b728b2a6d0d19d45721df9d924e856b7df8"
+    },
+    {
+      "path": "public/money-font/period.webp",
+      "bytes": 410,
+      "sha256": "4faccaa447c6cf4aca55ef43bf1ad7cb98a5232730e03f22b2c9b1b1bab48d1f"
+    },
+    {
+      "path": "public/money-font/preview.webp",
+      "bytes": 21580,
+      "sha256": "cf1ff3c48448fdf1d149a0a13a9e1f0647057a362cef8f83384a033fb475ac86"
+    },
+    {
+      "path": "public/update-assets/black-font.png",
+      "bytes": 1034183,
+      "sha256": "dff1e2a59de4cece9638bdfb1e3d2af5d5a57fc19ec703cc7e7fa4ec43d255f4"
+    },
+    {
+      "path": "public/update-assets/minimal-logo.png",
+      "bytes": 702366,
+      "sha256": "857ddf4091124ad69399314a1aaa150155fc0d2048c71b66f54b9182e3b02d9e"
+    },
+    {
+      "path": "public/update-assets/storm-bolt.png",
+      "bytes": 1885266,
+      "sha256": "0f7b3366ecb9f6f089c1a61d47cc3fc9ebdebc31d73d53b9faa5b41b086a54ad"
+    },
+    {
+      "path": "desktop/index.html",
+      "bytes": 631,
+      "sha256": "5c66d5db11ef2088103ed1ad64c14b8db526eb03a5568902e3723b91453f3fb7"
+    },
+    {
+      "path": "desktop/next-image-shim.tsx",
+      "bytes": 1144,
+      "sha256": "d5108a0129bbf68e0f5d886a99d437b7542f0bc538eb2c5aad0162a5cbb56fb1"
+    },
+    {
+      "path": "desktop/renderer.tsx",
+      "bytes": 277,
+      "sha256": "1e31c7d094972b165a5f633ee085d8b23b1b8989196bcab3fcd3a7bec574fcbb"
+    },
+    {
+      "path": "tests/desktop-storage.test.mjs",
+      "bytes": 3377,
+      "sha256": "7f71235a88af351c20e5ba5186adac67bd1a5f18141729db1d9e3d774fdcdc14"
+    },
+    {
+      "path": "tests/sequence.test.mjs",
+      "bytes": 943,
+      "sha256": "80db31de634651263d9a5819c2a7c5f4f9c6a019b16c538fadc0c7ccd2e588b7"
+    },
+    {
+      "path": "tests/settlement.test.mjs",
+      "bytes": 936,
+      "sha256": "7d148dcf125ea19a1e60237661b3dfa3f005d65df06ff597c347f4becf2f77ce"
+    },
+    {
+      "path": "tests/step2.test.mjs",
+      "bytes": 4393,
+      "sha256": "3370f37695fd6fa1cea6298beb4fcad8661fe5764fffe238d1bd678ceebc9871"
+    },
+    {
+      "path": "pnpm-lock.yaml",
+      "bytes": 256189,
+      "sha256": "473d9e24a132c10b4ed3f9fd80a9d68a1f41aaa8fd9a3ad44475c370e1647b7e"
+    },
+    {
+      "path": "desktop-app/main.cjs",
+      "bytes": 10914,
+      "sha256": "6e72bb458232d89ec60e5dff1dfa52558d9313315cbfb24159f56e53a1ae96ec"
+    },
+    {
+      "path": "desktop-app/preload.cjs",
+      "bytes": 817,
+      "sha256": "2027b8bf94785e90cdae20a7bb61105fcc7ecf32b9effd50a56dd293c3904940"
+    },
+    {
+      "path": "desktop-app/game-storage.cjs",
+      "bytes": 2176,
+      "sha256": "6c41f752ed7421cf592cc3bdef40c009230916a46e333e499e431bfd08ce7e7d"
+    },
+    {
+      "path": "desktop-app/package.json",
+      "bytes": 244,
+      "sha256": "7e23a8ce8ec8020684a36491ef90cfdbe55fb45f28a2da1f0abd694e8b2caa59"
+    },
+    {
+      "path": "desktop-app/pnpm-lock.yaml",
+      "bytes": 113,
+      "sha256": "ed2dc02ee73028a149cbd4823dbcdbb84cdbe7bef85f06c0e09978335592f4ae"
+    },
+    {
+      "path": "desktop-app/hub-manifest.json",
+      "bytes": 408,
+      "sha256": "b21913ee720b6daa69bdd77966b8295355d6d963a0872d3bf5ba46238adb21bd"
+    },
+    {
+      "path": "desktop-app/icon.png",
+      "bytes": 134197,
+      "sha256": "c643f4f6d8be8f624e00e085adbea35123ea885c9ca1ac4032c23d9e09d17345"
+    }
+  ],
+  "buildAdaptations": [
+    {
+      "path": "desktop/vite.renderer.config.ts",
+      "originalSha256": "33e6bf5170a673ff8eea038b7687a5f103c36f299e3f6da06d78cd7cb78d9b13",
+      "reason": "Build-only explicit Tailwind source scan and legacy utility/theme retention; rebuilt CSS and JavaScript are byte-identical to the installed baseline."
+    }
+  ]
+}

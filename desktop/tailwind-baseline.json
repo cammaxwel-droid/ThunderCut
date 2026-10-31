@@ -1,0 +1,6 @@
+[
+  "collapse", "invisible", "visible", "absolute", "fixed", "relative", "static",
+  "start", "end", "isolate", "container", "block", "contents", "flex", "grid",
+  "hidden", "inline", "table", "h-2", "grow", "resize", "rounded", "p-3",
+  "ring", "outline", "blur", "grayscale", "filter", "transition"
+]

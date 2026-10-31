@@ -1,0 +1,9 @@
+{
+  "name": "thunder-cut-desktop",
+  "version": "1.1.3",
+  "description": "ThunderCut - Cam The Mower Man - SS - SCATTEREDBRAIN SLOTS - native.games - Cameron Maxwell M - A Game by Native.",
+  "author": "Cameron Maxwell M",
+  "private": true,
+  "packageManager": "pnpm@11.19.0",
+  "main": "main.cjs"
+}
