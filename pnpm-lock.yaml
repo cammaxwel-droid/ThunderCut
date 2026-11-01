@@ -46,8 +46,8 @@ importers:
         specifier: 0.5.26
         version: 0.5.26(react-dom@19.2.6(react@19.2.6))(react-server-dom-webpack@19.2.6(react-dom@19.2.6(react@19.2.6))(react@19.2.6)(webpack@5.109.2(esbuild@0.27.3)(lightningcss@1.33.0)(postcss@8.5.26)))(react@19.2.6)(vite@8.0.13(@types/node@22.19.19)(esbuild@0.27.3)(jiti@2.7.0)(terser@5.50.0))
       electron:
-        specifier: ^44.0.0
-        version: 44.0.0(supports-color@10.2.2)
+        specifier: 44.10.1
+        version: 44.10.1(supports-color@10.2.2)
       electron-builder:
         specifier: ^26.15.3
         version: 26.15.3(electron-builder-squirrel-windows@26.15.3)(supports-color@10.2.2)
@@ -1928,8 +1928,8 @@ packages:
     resolution: {integrity: sha512-bO3y10YikuUwUuDUQRM4KfwNkKhnpVO7IPdbsrejwN9/AABJzzTQ4GeHwyzNSrVO+tEH3/Np255a3sVZpZDjvg==}
     engines: {node: '>=8.0.0'}
 
-  electron@44.0.0:
-    resolution: {integrity: sha512-FkTqPrFPZYljdPI5b7KORGsJTd6FgUQDefl5MrU3Xz9R87pAj9JLreIjDqcRN8hJIkFHIou0o8kKzvcpT9qiRQ==}
+  electron@44.10.1:
+    resolution: {integrity: sha512-CTqxvx02P+xCR/xUxAWBexQEJ42g9Rzy1/0N+ofGAtI/atgSYZKQnTX9/juwzftocWbZtoF2ftEGMGJujJDeBw==}
     engines: {node: '>= 22.12.0'}
     hasBin: true
 
@@ -5642,7 +5642,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  electron@44.0.0(supports-color@10.2.2):
+  electron@44.10.1(supports-color@10.2.2):
     dependencies:
       '@electron-internal/extract-zip': 1.0.5
       '@electron/get': 5.1.0(supports-color@10.2.2)

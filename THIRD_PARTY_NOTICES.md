@@ -10,7 +10,7 @@ Runtime and generated-style notices retained with this release:
 - **scheduler 0.27.0**: [scheduler licence](licenses/scheduler-LICENSE.txt).
 - **tailwindcss 4.2.1**: [tailwindcss licence](licenses/tailwindcss-LICENSE.txt).
 
-Electron 44.0.0 ships its own `LICENSE.electron.txt` and
+Electron 44.10.1 ships its own `LICENSE.electron.txt` and
 `LICENSES.chromium.html` alongside the installed game. Keep them with any
 redistributed package. Other dependencies and build tools are recorded in
 `pnpm-lock.yaml`; their original licence files remain in their packages.
