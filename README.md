@@ -7,12 +7,12 @@ reels, free games and the Coin Storm feature. The game uses demo credits with
 no cash value.
 
 [Download the Windows installer](https://github.com/cammaxwel-droid/ThunderCut/releases/latest)
- · [Release notes](docs/RELEASE-1.1.3.md)
+ · [Release notes](docs/RELEASE-1.1.4.md)
  · [Report a bug](https://github.com/cammaxwel-droid/ThunderCut/issues/new/choose)
 
 ## Play on Windows
 
-1. Open the Releases page above and download `Thunder-Cut-Setup-1.1.3-x64.exe`.
+1. Open the Releases page above and download `Thunder-Cut-Setup-1.1.4-x64.exe`.
 2. Run the installer and choose an installation folder.
 3. Launch **ThunderCut** from the desktop or Start menu shortcut.
 
@@ -28,7 +28,7 @@ have not yet been verified. See the release notes for the checks performed.
 Use the on-screen controls or **Space** to spin when available. **Game info**
 contains the paytable, feature explanations and session controls. Animations
 use the game's approved full-motion timing, independent of the Windows motion
-preference. The current release is **1.1.3**.
+preference. The current release is **1.1.4**.
 
 ## Develop and review
 
