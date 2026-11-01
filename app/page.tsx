@@ -1786,6 +1786,7 @@ export default function Home() {
 
   function requestSpin() {
     if (!canRequestSpin) return;
+    if (freeGames === 0 && credits < BET_OPTIONS[0]) return;
     if (freeGames === 0 && credits < totalBet) {
       guideToAffordableBet();
       return;
