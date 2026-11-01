@@ -22,7 +22,7 @@
     "desktop:package": "pnpm run desktop:renderer && pnpm run desktop:stage && node desktop/run-electron-builder.mjs --win nsis --x64"
   },
   "dependencies": {
-    "next": "16.2.6",
+    "next": "16.4.1",
     "react": "19.2.6",
     "react-dom": "19.2.6"
   },
