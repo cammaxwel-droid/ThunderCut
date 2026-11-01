@@ -1,7 +1,7 @@
 appId: com.cammowerman.thundercut
 productName: ThunderCut
 copyright: Copyright © 2026 Cameron Maxwell M - A Game by Native
-electronVersion: 44.0.0
+electronVersion: 44.10.1
 directories:
   output: ../../release
   buildResources: .
