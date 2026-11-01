@@ -1779,7 +1779,6 @@ export default function Home() {
       `Bet guided to ${affordableLines} ${affordableLines === 1 ? 'line' : 'lines'} × ${formatMoney(BET_OPTIONS[affordableBetIndex])} so the next spin fits the balance.`,
     );
     window.setTimeout(() => {
-      controlDeckRef.current?.scrollIntoView({ behavior: 'smooth', block: 'center' });
       if (affordableBetIndex > 0) betDecreaseButtonRef.current?.focus({ preventScroll: true });
       else controlDeckRef.current?.focus({ preventScroll: true });
     }, 0);
@@ -1787,6 +1786,7 @@ export default function Home() {
 
   function requestSpin() {
     if (!canRequestSpin) return;
+    if (freeGames === 0 && credits < BET_OPTIONS[0]) return;
     if (freeGames === 0 && credits < totalBet) {
       guideToAffordableBet();
       return;
