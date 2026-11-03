@@ -6,3 +6,8 @@ allowBuilds:
   unrs-resolver: true
   workerd: true
   electron-winstaller: false
+
+# Keep both Undici release lines on the reviewed security fixes.
+overrides:
+  'undici@^6.0.0': 6.29.1
+  'undici@^7.0.0': 7.30.1
