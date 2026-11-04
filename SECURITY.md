@@ -39,6 +39,19 @@ release compromise are reportable. No blanket exclusions or accepted-risk
 waivers are established here. Gameplay balance and visual defects can be regular
 bugs; a concrete security consequence still warrants security review.
 
+## Code scanning
+
+The CodeQL Advanced workflow analyzes JavaScript/TypeScript and GitHub Actions
+using the default security queries. It runs on pushes and pull requests to
+`main`, weekly on Monday at 14:20 UTC, and by manual dispatch. The workflow does
+not build or launch the game.
+
+After merging the workflow, check the Actions run and the repository's
+**Security and quality** tab for results. If CodeQL default setup is already
+enabled, a repository administrator must switch to advanced setup first; see
+[GitHub's setup instructions](https://docs.github.com/en/code-security/how-tos/find-and-fix-code-vulnerabilities/configure-code-scanning/configuring-advanced-setup-for-code-scanning).
+Code scanning does not replace a security review.
+
 ## Release limitations
 
 The Windows installer is currently unsigned. This is recorded as a distribution
