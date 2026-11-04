@@ -3618,7 +3618,11 @@ export default function Home() {
                   <small>{isFreeSpin ? `${freeGames} remaining` : `Bet ${formatMoney(totalBet)}`}</small>
                 </button>
               )}
-              <p><kbd>SPACE</kbd> spin</p>
+              <p>
+                {showWinActions
+                  ? pendingWinGambleLocked || gambleRound >= GAMBLE_MAX_ROUNDS ? 'Collect win' : 'Collect or Gamble'
+                  : <><kbd>SPACE</kbd> spin</>}
+              </p>
             </aside>
           </div>
 
