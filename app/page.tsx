@@ -3197,11 +3197,14 @@ export default function Home() {
       return;
     }
 
-    if (gambleOpen && event.code === 'Enter') {
+    if (gambleOpen && (event.code === 'Enter' || event.code === 'Space')) {
       const button = target?.closest('button');
       if (button instanceof HTMLButtonElement && gambleModalRef.current?.contains(button)) {
         // Preserve native activation of the focused control, including Gamble again.
-        if (event.repeat || button.disabled) {
+        if (
+          event.repeat || button.disabled ||
+          (event.code === 'Space' && (spaceHeldRef.current || event.ctrlKey || event.altKey || event.metaKey))
+        ) {
           event.preventDefault();
           event.stopPropagation();
         }
@@ -3276,7 +3279,13 @@ export default function Home() {
     function onKeyUp(event: KeyboardEvent) {
       if (event.code !== 'Space' || event.isComposing) return;
       if ((event.target as HTMLElement | null)?.closest('.game-info-button, .game-info-dialog')) return;
-      if (!isEditableKeyboardTarget(event.target)) {
+      const button = (event.target as HTMLElement | null)?.closest('button');
+      // Space activates native buttons on keyup. Do not swallow that activation
+      // for Gamble controls, or turn a game-surface held press into a button click.
+      const nativeGambleButton = button instanceof HTMLButtonElement &&
+        gambleModalRef.current?.contains(button) && document.activeElement === button &&
+        !button.disabled && !spaceHeldRef.current && !event.ctrlKey && !event.altKey && !event.metaKey;
+      if (!isEditableKeyboardTarget(event.target) && !nativeGambleButton) {
         event.preventDefault();
         event.stopPropagation();
       }
