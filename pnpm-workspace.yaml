@@ -11,3 +11,5 @@ allowBuilds:
 overrides:
   'undici@^6.0.0': 6.29.1
   'undici@^7.0.0': 7.30.1
+  # Keep the pinned Cloudflare WebSocket receivers on the metadata-limit fix.
+  'ws@8.18.0': 8.21.0
