@@ -3197,9 +3197,11 @@ export default function Home() {
       return;
     }
 
-    if (gambleOpen && (event.code === 'Enter' || event.code === 'Space')) {
+    if ((gambleOpen && event.code === 'Enter') || event.code === 'Space') {
       const button = target?.closest('button');
-      if (button instanceof HTMLButtonElement && gambleModalRef.current?.contains(button)) {
+      const nativeButton = button instanceof HTMLButtonElement &&
+        (gambleModalRef.current ? gambleModalRef.current.contains(button) : button !== spinButtonRef.current);
+      if (nativeButton) {
         // Preserve native activation of the focused control, including Gamble again.
         if (
           event.repeat || button.disabled ||
@@ -3281,12 +3283,13 @@ export default function Home() {
       if (event.code !== 'Space' || event.isComposing) return;
       if ((event.target as HTMLElement | null)?.closest('.game-info-button, .game-info-dialog')) return;
       const button = (event.target as HTMLElement | null)?.closest('button');
-      // Space activates native buttons on keyup. Do not swallow that activation
-      // for Gamble controls, or turn a game-surface held press into a button click.
-      const nativeGambleButton = button instanceof HTMLButtonElement &&
-        gambleModalRef.current?.contains(button) && document.activeElement === button &&
-        !button.disabled && !spaceHeldRef.current && !event.ctrlKey && !event.altKey && !event.metaKey;
-      if (!isEditableKeyboardTarget(event.target) && !nativeGambleButton) {
+      // Space activates native buttons on keyup. Keep the Spin button on the
+      // game shortcut so held-Space spinning remains available.
+      const nativeFocusedButton = button instanceof HTMLButtonElement &&
+        (gambleModalRef.current ? gambleModalRef.current.contains(button) : button !== spinButtonRef.current) &&
+        document.activeElement === button && !button.disabled && !spaceHeldRef.current &&
+        !event.ctrlKey && !event.altKey && !event.metaKey;
+      if (!isEditableKeyboardTarget(event.target) && !nativeFocusedButton) {
         event.preventDefault();
         event.stopPropagation();
       }
