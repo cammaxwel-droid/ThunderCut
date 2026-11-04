@@ -1823,7 +1823,7 @@ export default function Home() {
   }
 
   function resetDemoBalanceOnly() {
-    if (!sessionGateReady || sessionEnded || persistenceBlocked || spinning || gambleOpen || featureSequenceActive) return;
+    if (!sessionGateReady || sessionEnded || persistenceBlocked || spinning || pendingWin > 0 || gambleOpen || featureSequenceActive) return;
     const nextPeak = Math.max(sessionPeakBalance, STARTING_CREDITS);
     const commit = persistCommittedTransaction({
       credits: STARTING_CREDITS,
@@ -3237,6 +3237,7 @@ export default function Home() {
     }
 
     if (event.code === 'KeyZ') {
+      if (event.ctrlKey || event.altKey || event.metaKey || event.shiftKey) return;
       event.preventDefault();
       event.stopPropagation();
       if (!event.repeat) resetDemoBalanceOnly();
