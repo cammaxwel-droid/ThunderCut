@@ -5841,7 +5841,7 @@ html:fullscreen .site-shell {
   text-align: center;
 }
 
-.free-game-choice-modal h2 { margin: 0; font-size: clamp(36px, 7vw, 72px); }
+.free-game-choice-modal h2 { margin: 0; min-width: 0; max-width: 100%; font-size: clamp(36px, 7vw, 72px); }
 .free-choice-instruction { margin: 0; color: #d7c7de; }
 .free-choice-bolt { position: absolute; z-index: -1; top: -75px; width: 270px; height: 270px; object-fit: contain; opacity: .35; }
 .free-choice-bolt.left { left: -72px; transform: rotate(-15deg); }

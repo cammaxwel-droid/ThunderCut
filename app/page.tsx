@@ -3777,8 +3777,8 @@ export default function Home() {
             <Image className="free-choice-bolt left" src="/update-assets/storm-bolt.png" alt="" width={320} height={320} unoptimized />
             <Image className="free-choice-bolt right" src="/update-assets/storm-bolt.png" alt="" width={320} height={320} unoptimized />
             <p className="eyebrow">Scatter Storm awarded</p>
-            <h2 id="free-game-choice-title"><ThunderText text="Choose Free Games" className="modal-title-font" /></h2>
-            <p className="free-choice-instruction">Use the arrow keys, then press Space or Enter. Mouse selection works too.</p>
+            <h2 id="free-game-choice-title"><ThunderText text="Classic Cut Free Games" className="modal-title-font" /></h2>
+            <p className="free-choice-instruction">Press Space or Enter, or click Classic Cut or Start.</p>
             <button
               className={`free-game-choice-card ${selectedFreeGameChoice === 'classic-cut' ? 'is-selected' : ''}`}
               type="button"
