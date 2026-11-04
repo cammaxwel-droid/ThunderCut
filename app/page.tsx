@@ -3439,9 +3439,9 @@ export default function Home() {
                 );
               })}
             </div>
-            <div className="storm-battery" aria-label={`${displayCoinCount} Mower Coins held`}>
+            <div className="storm-battery" aria-label={`${displayCoinCount} Mower Coin${displayCoinCount === 1 ? '' : 's'} ${coinFeatureOpen ? 'held' : coinFeatureQueued ? 'queued' : 'landed; 6 trigger Coin Storm'}`}>
               <div className="battery-label">
-                <span>Coin Storm progress</span>
+                <span>Coin Storm progress · {displayCoinCount} {coinFeatureOpen ? 'held' : coinFeatureQueued ? 'queued' : 'landed · 6 trigger'}</span>
                 <small>6 trigger · eligible 15 wins Grand</small>
               </div>
               <div className="battery-segments coin-progress-bars">
