@@ -8,7 +8,7 @@ issue. Include the release version, Windows version, affected path, reproduction
 steps and likely impact. Use synthetic data where possible. Ordinary visual
 bugs belong in Issues.
 
-The current release is 1.1.3. Reports against it and the default branch are
+The current release is 1.1.6. Reports against it and the default branch are
 welcome. There is no guaranteed response deadline or support promise for older
 versions. This policy is not a security audit or a certification.
 
