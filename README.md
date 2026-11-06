@@ -1,18 +1,22 @@
 # ThunderCut
 
+**[⚡ Get ThunderCut for Windows](https://thundercut-download.cammaxwel.chatgpt.site/)**
+
+[Direct installer download](https://github.com/cammaxwel-droid/ThunderCut/releases/download/v1.1.6/Thunder-Cut-Setup-1.1.6-x64.exe)
+ · [SHA-256 checksum](https://github.com/cammaxwel-droid/ThunderCut/releases/download/v1.1.6/SHA256SUMS.txt)
+
 **Cam The Mower Man — A Game by Native.**
 
 A free Windows slot-style game with original artwork and sound, full-motion
 reels, free games and the Coin Storm feature. The game uses demo credits with
 no cash value.
 
-[Download the Windows installer](https://github.com/cammaxwel-droid/ThunderCut/releases/latest)
- · [Release notes](docs/RELEASE-1.1.6.md)
+[Release notes](docs/RELEASE-1.1.6.md)
  · [Report a bug](https://github.com/cammaxwel-droid/ThunderCut/issues/new/choose)
 
 ## Play on Windows
 
-1. Open the Releases page above and download `Thunder-Cut-Setup-1.1.6-x64.exe`.
+1. Open **Get ThunderCut for Windows** above and choose **Download for Windows**.
 2. Run the installer and choose an installation folder.
 3. Launch **ThunderCut** from the desktop or Start menu shortcut.
 
