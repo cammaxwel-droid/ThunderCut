@@ -1,6 +1,6 @@
 # Thunder Cut: preserve Cam's game
 
-Cam owns the design and makes all decisions about changes. This repository contains the finalized ThunderCut 1.1.3 Windows source, derived from the preserved 1.1.2 baseline. Preparing it for code review does not authorise redesign or gameplay changes.
+Cam owns the design and makes all decisions about changes. This repository contains ThunderCut Windows source, derived from the preserved 1.1.2 baseline. The current application version is recorded in `desktop-app/package.json` (1.1.6 at this update); see `README.md` for release information. Preparing it for code review does not authorise redesign or gameplay changes.
 
 - Start a review read-only. Describe concrete display problems and the smallest proposed correction. Do not apply fixes unless Cam requests them.
 - Preserve the current artwork, sounds, layout, animation, timing, rules, probabilities, payouts, features, controls and save behaviour outside the exact requested change.
